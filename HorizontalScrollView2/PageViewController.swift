@@ -78,6 +78,7 @@ class PageViewController: UIViewController {
         pageControl.size(forNumberOfPages: 4)
         pageControl.pageIndicatorTintColor = offWhite
         pageControl.currentPageIndicatorTintColor = skyBlue
+        scrollView.contentSize.width = 1280.0
         
     }
     
