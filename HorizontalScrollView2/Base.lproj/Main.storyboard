@@ -24,7 +24,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rct-2W-v6d">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rct-2W-v6d">
                                 <rect key="frame" x="0.0" y="64" width="320" height="224"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n3h-1T-kJR" userLabel="Content View">
@@ -63,7 +63,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y5F-yf-3RY" userLabel="Page3">
                                                 <rect key="frame" x="558" y="0.0" width="240" height="241"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page3Tickets" translatesAutoresizingMaskIntoConstraints="NO" id="PWi-bh-64m" userLabel="Page3ImageView">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page3FashionShow" translatesAutoresizingMaskIntoConstraints="NO" id="PWi-bh-64m" userLabel="Page3ImageView">
                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="241"/>
                                                     </imageView>
                                                 </subviews>
@@ -78,7 +78,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKf-fU-fOm" userLabel="Page4">
                                                 <rect key="frame" x="826" y="0.0" width="240" height="241"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page4FashionShow" translatesAutoresizingMaskIntoConstraints="NO" id="A2r-iH-2IB" userLabel="Page4ImageView">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page4PersonalShopper" translatesAutoresizingMaskIntoConstraints="NO" id="A2r-iH-2IB" userLabel="Page4ImageView">
                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="241"/>
                                                     </imageView>
                                                 </subviews>
@@ -91,7 +91,6 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0550724566" green="0.22618591790000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="xQh-Rg-yZb" firstAttribute="leading" secondItem="n3h-1T-kJR" secondAttribute="leading" constant="22" identifier="Page1Left" id="3j8-b1-VdY"/>
                                             <constraint firstItem="eYf-AA-ff2" firstAttribute="top" secondItem="n3h-1T-kJR" secondAttribute="top" id="CLi-gT-QTz"/>
@@ -445,12 +444,12 @@
         <image name="LoyaltyButton" width="307" height="148"/>
         <image name="MagicianHat" width="365" height="235"/>
         <image name="OffersButton" width="308" height="144"/>
+        <image name="Page4PersonalShopper" width="656" height="494"/>
         <image name="PressFinger" width="552" height="657"/>
         <image name="ShopButton" width="647" height="96"/>
         <image name="VogueStoreStartup" width="739" height="1131"/>
         <image name="page1Shoes" width="645" height="534"/>
         <image name="page2Shoes" width="682" height="510"/>
-        <image name="page3Tickets" width="653" height="489"/>
-        <image name="page4FashionShow" width="653" height="489"/>
+        <image name="page3FashionShow" width="653" height="489"/>
     </resources>
 </document>
