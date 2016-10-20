@@ -222,7 +222,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.79795017739999996" green="0.93767279579999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="NP4-la-Juc" firstAttribute="top" secondItem="ucm-cl-3Lo" secondAttribute="bottom" id="0cN-f9-MxW"/>
                             <constraint firstItem="ucm-cl-3Lo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="0hl-X4-h83"/>
