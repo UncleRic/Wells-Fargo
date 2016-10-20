@@ -52,6 +52,8 @@ class PageViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil);
         PageViewController.shopVC = storyboard.instantiateViewController(withIdentifier: kShopVC)
         self.title = "Vogue Store"
+        let vogueStoreImage = UIImage(named:"VogueStore.png")
+        self.navigationItem.titleView = UIImageView(image: vogueStoreImage)
     }
     
     override var prefersStatusBarHidden: Bool {
