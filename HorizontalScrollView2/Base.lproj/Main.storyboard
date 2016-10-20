@@ -110,7 +110,6 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.74821950449999997" blue="0.65809800650000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="n3h-1T-kJR" secondAttribute="trailing" constant="-960" id="8v7-D5-NK6"/>
                                     <constraint firstItem="n3h-1T-kJR" firstAttribute="leading" secondItem="rct-2W-v6d" secondAttribute="leading" id="TaV-BT-qp2"/>
@@ -123,7 +122,6 @@
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ucm-cl-3Lo">
                                 <rect key="frame" x="0.0" y="288" width="320" height="37"/>
-                                <color key="backgroundColor" red="1" green="0.052104368810000003" blue="0.069862782959999994" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="LQ7-Tx-hBV"/>
                                 </constraints>
