@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183765F81DB73138003792E6 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183765F71DB73138003792E6 /* Shop.swift */; };
+		1888A6FF1DB823740062F405 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888A6FE1DB823740062F405 /* Alerts.swift */; };
+		1888A7041DB82CB70062F405 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888A7031DB82CB70062F405 /* Login.swift */; };
+		18A540C51DB699AF00921236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A540C41DB699AF00921236 /* AppDelegate.swift */; };
+		18A540C71DB699AF00921236 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A540C61DB699AF00921236 /* PageViewController.swift */; };
+		18A540CA1DB699AF00921236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A540C81DB699AF00921236 /* Main.storyboard */; };
+		18A540CC1DB699AF00921236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A540CB1DB699AF00921236 /* Assets.xcassets */; };
+		18A540CF1DB699AF00921236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A540CD1DB699AF00921236 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183765F71DB73138003792E6 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		1888A6FE1DB823740062F405 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		1888A7031DB82CB70062F405 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		18A540C11DB699AF00921236 /* WellsFargo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellsFargo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A540C41DB699AF00921236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A540C61DB699AF00921236 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		18A540C91DB699AF00921236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A540CB1DB699AF00921236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A540CE1DB699AF00921236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A540D01DB699AF00921236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A540BE1DB699AF00921236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1888A7021DB82A300062F405 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18A540C81DB699AF00921236 /* Main.storyboard */,
+				18A540CD1DB699AF00921236 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		18A540B81DB699AF00921236 = {
+			isa = PBXGroup;
+			children = (
+				18A540C31DB699AF00921236 /* WellsFargo */,
+				18A540C21DB699AF00921236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A540C21DB699AF00921236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A540C11DB699AF00921236 /* WellsFargo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A540C31DB699AF00921236 /* WellsFargo */ = {
+			isa = PBXGroup;
+			children = (
+				18A540C41DB699AF00921236 /* AppDelegate.swift */,
+				1888A7031DB82CB70062F405 /* Login.swift */,
+				18A540C61DB699AF00921236 /* PageViewController.swift */,
+				183765F71DB73138003792E6 /* Shop.swift */,
+				1888A6FE1DB823740062F405 /* Alerts.swift */,
+				1888A7021DB82A300062F405 /* UI */,
+				18A540CB1DB699AF00921236 /* Assets.xcassets */,
+				18A540D01DB699AF00921236 /* Info.plist */,
+			);
+			name = WellsFargo;
+			path = HorizontalScrollView2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A540C01DB699AF00921236 /* WellsFargo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A540D31DB699AF00921236 /* Build configuration list for PBXNativeTarget "WellsFargo" */;
+			buildPhases = (
+				18A540BD1DB699AF00921236 /* Sources */,
+				18A540BE1DB699AF00921236 /* Frameworks */,
+				18A540BF1DB699AF00921236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellsFargo;
+			productName = HorizontalScrollView2;
+			productReference = 18A540C11DB699AF00921236 /* WellsFargo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A540B91DB699AF00921236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Amourine Technologies";
+				TargetAttributes = {
+					18A540C01DB699AF00921236 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NFHP7Z5VAQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18A540BC1DB699AF00921236 /* Build configuration list for PBXProject "WellsFargo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A540B81DB699AF00921236;
+			productRefGroup = 18A540C21DB699AF00921236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A540C01DB699AF00921236 /* WellsFargo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A540BF1DB699AF00921236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A540CF1DB699AF00921236 /* LaunchScreen.storyboard in Resources */,
+				18A540CC1DB699AF00921236 /* Assets.xcassets in Resources */,
+				18A540CA1DB699AF00921236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A540BD1DB699AF00921236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183765F81DB73138003792E6 /* Shop.swift in Sources */,
+				1888A7041DB82CB70062F405 /* Login.swift in Sources */,
+				18A540C71DB699AF00921236 /* PageViewController.swift in Sources */,
+				1888A6FF1DB823740062F405 /* Alerts.swift in Sources */,
+				18A540C51DB699AF00921236 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A540C81DB699AF00921236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A540C91DB699AF00921236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A540CD1DB699AF00921236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A540CE1DB699AF00921236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A540D11DB699AF00921236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A540D21DB699AF00921236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A540D41DB699AF00921236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFHP7Z5VAQ;
+				INFOPLIST_FILE = HorizontalScrollView2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmourineTech.HorizontalScrollView2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18A540D51DB699AF00921236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NFHP7Z5VAQ;
+				INFOPLIST_FILE = HorizontalScrollView2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AmourineTech.HorizontalScrollView2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A540BC1DB699AF00921236 /* Build configuration list for PBXProject "WellsFargo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A540D11DB699AF00921236 /* Debug */,
+				18A540D21DB699AF00921236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A540D31DB699AF00921236 /* Build configuration list for PBXNativeTarget "WellsFargo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A540D41DB699AF00921236 /* Debug */,
+				18A540D51DB699AF00921236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A540B91DB699AF00921236 /* Project object */;
+}
