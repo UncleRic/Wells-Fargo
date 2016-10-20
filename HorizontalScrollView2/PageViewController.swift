@@ -56,6 +56,8 @@ class PageViewController: UIViewController {
         self.navigationItem.titleView = UIImageView(image: vogueStoreImage)
     }
     
+    // -----------------------------------------------------------------------------------------------------
+    
     override var prefersStatusBarHidden: Bool {
         return true
     }
@@ -84,6 +86,33 @@ class PageViewController: UIViewController {
     
     // -----------------------------------------------------------------------------------------------------
     
+    func handleContextMenu() {
+        showAlert(sender: self, withTitle: "Contextual Menu", withMessage: "This is where a contextual menu would be displayed.")
+    }
+    
+    // -----------------------------------------------------------------------------------------------------
+    
+    func handlePersonalMenu() {
+        showAlert(sender: self, withTitle: "Personal Menu", withMessage: "This is where a menu of systemic personal-items would be displayed.")
+    }
+    
+
+    
+    // -----------------------------------------------------------------------------------------------------
+    
+    func setupMenuBarItems() {
+        let barsImage = UIImage(named:"bars.png")
+        let headImage = UIImage(named:"head.png")
+        let shoppingCartImage = UIImage(named:"ShoppingCart.png")
+        let leftItem = UIBarButtonItem(image: shoppingCartImage, style: .plain, target: self, action: #selector(handleContextMenu))
+        self.navigationItem.leftBarButtonItem = leftItem
+        let rightItem = UIBarButtonItem(image: headImage, style: .plain, target: self, action: #selector(handlePersonalMenu))
+        self.navigationItem.rightBarButtonItem = rightItem
+
+    }
+    
+    // -----------------------------------------------------------------------------------------------------
+    
     func animateOpeningSession() {
         
         UIView.animate(withDuration: 1.0, animations: {
@@ -96,6 +125,7 @@ class PageViewController: UIViewController {
             }) {(Two) in
                 UIView.animate(withDuration: 0.5, animations: {
                     self.VogueStoreStartupImageView.alpha = 0.0
+                    self.setupMenuBarItems()
                 })
             }
         }
