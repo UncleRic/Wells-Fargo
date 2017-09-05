@@ -7,8 +7,8 @@
 
 import UIKit
 
-let skyBlue = UIColor(colorLiteralRed: 83/255, green: 117/255, blue: 182/255, alpha: 1.0)
-let offWhite = UIColor(colorLiteralRed: 240/255, green: 240/255, blue: 240/255, alpha: 1.0)
+let skyBlue = UIColor(red: 83/255, green: 117/255, blue: 182/255, alpha: 1.0)
+let offWhite = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 1.0)
 let kShopVC = "ShopVC"
 
 class PageViewController: UIViewController {
@@ -86,13 +86,13 @@ class PageViewController: UIViewController {
     
     // -----------------------------------------------------------------------------------------------------
     
-    func handleContextMenu() {
+    @objc func handleContextMenu() {
         showAlert(sender: self, withTitle: "Contextual Menu", withMessage: "This is where a contextual menu would be displayed.")
     }
     
     // -----------------------------------------------------------------------------------------------------
     
-    func handlePersonalMenu() {
+    @objc func handlePersonalMenu() {
         showAlert(sender: self, withTitle: "Personal Menu", withMessage: "This is where a menu of systemic personal-items would be displayed.")
     }
     

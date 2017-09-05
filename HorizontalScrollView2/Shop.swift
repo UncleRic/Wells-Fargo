@@ -91,7 +91,7 @@ class ShopViewController:UIViewController, CellProtocol {
     
     // -----------------------------------------------------------------------------------------------------
     
-    func handleShoppingCart() {
+    @objc func handleShoppingCart() {
         showAlert(sender: self, withTitle: "Your Shopping Cart", withMessage: "...is full of neat surprises!")
     }
     
